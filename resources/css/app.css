@@ -1,0 +1,115 @@
+.navbar-1-3.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-1-3 .bg-purple .navbar-nav .nav-link.active {
+    color: #ffdda9;
+    font-weight: 500;
+}
+
+.navbar-1-3 .bg-purple {
+    background-color: #391484;
+    transition: 0.3s;
+}
+
+.navbar-1-3 .btn-get-started {
+    border-radius: 20px;
+    padding: 12px 30px;
+    font-weight: 500;
+}
+
+.navbar-1-3 .btn-get-started-yellow {
+    background-color: #ffdda9;
+    color: #372642;
+    transition: 0.3s;
+}
+
+.navbar-1-3 .btn-get-started-yellow:hover {
+    background-color: #fcd396;
+    color: #372642;
+    transition: 0.3s;
+}
+
+body .content {
+    background: #FFFFFF;
+}
+
+body .content .content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+body .content .content .tagline {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #DB0D70;
+}
+
+body .content .content .headline {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 67px;
+    color: #111F37;
+}
+
+body .content .content .benefits {
+    margin-top: 50px;
+}
+
+body .content .content .benefits .rectangle {
+    max-width: 288px;
+    max-height: 334px;
+    border: 1px solid #9BA8BE;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 26px;
+}
+
+body .content .content .benefits .rectangle img {
+    margin-top: 50px;
+}
+
+body .content .content .benefits .rectangle .headline-benefit {
+    margin-top: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    color: #111F37;
+}
+
+body .content .content .benefits .rectangle .subheadline-benefit {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    color: #627492;
+    margin-bottom: 40px;
+}
+
+body .content .content .img-brand {
+    margin-top: 50px;
+}
+
+body .content .content .img-brand img {
+    margin-right: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    body .content .content .img-brand img {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
